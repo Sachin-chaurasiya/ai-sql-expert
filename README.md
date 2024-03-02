@@ -4,9 +4,52 @@ Welcome to the SQL Expert. You can ask any SQL-related questions and
 expert will help you out.
 
 
-
 https://github.com/Sachin-chaurasiya/vercel-ai-sdk-example/assets/59080942/c2f888c2-a247-4142-8283-e10fb690831b
 
+
+## Local Setup
+
+Follow these steps to set up the project locally on your machine.
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v18.17.1 or higher)
+- [pnpm](https://pnpm.io/) (v8.14.3 or higher)
+- [Git](https://git-scm.com/)
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/Sachin-chaurasiya/vercel-ai-sdk-example.git
+cd vercel-ai-sdk-example
+```
+
+### Install Dependencies
+
+```bash
+pnpm install
+```
+
+### Configuration
+
+Add your OpenAI API Key to `.env`
+
+Create a .env file in your project root and add your OpenAI API Key:
+
+```
+OPENAI_API_KEY=xxxxxxxxx
+```
+
+### Run the Development Server
+
+```bash
+pnpm run dev
+```
+
+Visit [http://localhost:3000](http://localhost:3000/) in your browser to see the
+application.
 
 ## Sample prompts
 
@@ -31,5 +74,6 @@ https://github.com/Sachin-chaurasiya/vercel-ai-sdk-example/assets/59080942/c2f88
 
 10. "Construct a SQL query to identify any anomalies or irregularities in order quantities compared to historical averages for each product."
 ```
+
 
 
