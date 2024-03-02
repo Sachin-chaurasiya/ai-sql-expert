@@ -22,8 +22,8 @@ Make sure you have the following installed:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/Sachin-chaurasiya/vercel-ai-sdk-example.git
-cd vercel-ai-sdk-example
+git clone https://github.com/Sachin-chaurasiya/ai-sql-expert.git
+cd ai-sql-expert
 ```
 
 ### Install Dependencies
