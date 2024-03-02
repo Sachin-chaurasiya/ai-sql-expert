@@ -38,6 +38,7 @@ export default function Chat() {
           onSubmit={handleSubmit}
         >
           <input
+            autoFocus
             className="p-2 border border-gray-300 rounded shadow-xl outline-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-500 flex-grow max-w-xl"
             value={input}
             placeholder="Ask your SQL related question.."
