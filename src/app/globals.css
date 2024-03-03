@@ -21,3 +21,7 @@ body {
 pre {
   @apply bg-gray-900 rounded p-4 text-white overflow-x-scroll;
 }
+
+:not(pre) > code {
+  @apply bg-gray-900 rounded p-[2px] text-white;
+}
