@@ -71,7 +71,7 @@ export default function Chat() {
           />
 
           <button
-            className="border p-2 px-4 rounded shadow-xl border-gray-300 bg-purple-500 text-white"
+            className="border p-2 px-4 rounded shadow-2xl border-purple-600 bg-purple-500 hover:bg-purple-600 text-white"
             type="submit"
           >
             Send
